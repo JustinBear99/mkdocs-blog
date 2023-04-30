@@ -1,0 +1,43 @@
+site_name: Justin Hsiung's Space
+theme:
+  name: material
+  custom_dir: overrides
+  palette: 
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  logo: assets/bear-head-svgrepo-com.svg
+  favicon: assets/bear-head-svgrepo-com.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - navigation.top
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search:
+      lang: en
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/JustinBear99
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hsien-feng-hsiung/
+nav:
+  - Home: index.md
+  - Career:
+    - career/index.md
+    - LeetCode:
+      - career/leetcode/index.md
+  - Life: 
+    - life/index.md
+    
