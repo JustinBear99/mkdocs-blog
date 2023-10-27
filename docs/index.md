@@ -4,4 +4,4 @@ hide:
 ---
 # Welcome
 
-Feel free to interact or exchange your thought with me. 🤣
+Hi, my name is Justin Hsiung, a software engineer grinding to be a better person!

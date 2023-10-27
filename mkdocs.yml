@@ -36,8 +36,14 @@ nav:
   - Home: index.md
   - Career:
     - career/index.md
-    - LeetCode:
+    - Leet Code:
       - career/leetcode/index.md
+      - career/leetcode/823-binary-trees-with-factors.md
+    - System Design:
+      - career/system-design/index.md
+      - ByteByteGo: 
+        - career/system-design/bytebytego/bytebytego-system-design.md
   - Life: 
     - life/index.md
+  - Tags: tags.md
     
