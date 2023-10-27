@@ -5,6 +5,8 @@ date:
 
 tags:
     - LeetCode
+
+comments: true
 ---
 
 # 823. Binary Trees with Factors
