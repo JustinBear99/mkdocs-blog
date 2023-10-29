@@ -41,6 +41,7 @@ nav:
       - career/leetcode/823-binary-trees-with-factors.md
       - career/leetcode/5-longest-palindromic-substring.md
       - career/leetcode/1220-count-vowels-permutation.md
+      - career/leetcode/458-poor-pigs.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
