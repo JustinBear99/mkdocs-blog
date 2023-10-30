@@ -38,14 +38,18 @@ nav:
     - career/index.md
     - Leet Code:
       - career/leetcode/index.md
-      - career/leetcode/823-binary-trees-with-factors.md
-      - career/leetcode/5-longest-palindromic-substring.md
-      - career/leetcode/1220-count-vowels-permutation.md
-      - career/leetcode/458-poor-pigs.md
+      - Daily:
+        - Oct 2023:
+          - career/leetcode/daily/oct2023/823-binary-trees-with-factors.md
+          - career/leetcode/daily/oct2023/5-longest-palindromic-substring.md
+          - career/leetcode/daily/oct2023/1220-count-vowels-permutation.md
+          - career/leetcode/daily/oct2023/458-poor-pigs.md
+          - career/leetcode/daily/oct2023/1356-sort-integers-by-the-number-of-1-bits.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
         - career/system-design/bytebytego/bytebytego-system-design.md
+        - career/system-design/bytebytego/01-database-isolation-levels.md
   - Life: 
     - life/index.md
   - Tags: tags.md
@@ -58,3 +62,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
