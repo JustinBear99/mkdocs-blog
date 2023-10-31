@@ -45,6 +45,7 @@ nav:
           - career/leetcode/daily/oct2023/1220-count-vowels-permutation.md
           - career/leetcode/daily/oct2023/458-poor-pigs.md
           - career/leetcode/daily/oct2023/1356-sort-integers-by-the-number-of-1-bits.md
+          - career/leetcode/daily/oct2023/2433-find-the-original-array-of-prefix-xor.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
