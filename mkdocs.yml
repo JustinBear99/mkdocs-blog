@@ -48,6 +48,7 @@ nav:
           - career/leetcode/daily/oct2023/2433-find-the-original-array-of-prefix-xor.md
         - Nov 2023:
           - career/leetcode/daily/nov2023/501-find-mode-in-binary-search-tree.md
+          - career/leetcode/daily/nov2023/2265-count-nodes-equal-to-average-of-subtree.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
