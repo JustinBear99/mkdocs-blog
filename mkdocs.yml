@@ -49,6 +49,7 @@ nav:
         - Nov 2023:
           - career/leetcode/daily/nov2023/501-find-mode-in-binary-search-tree.md
           - career/leetcode/daily/nov2023/2265-count-nodes-equal-to-average-of-subtree.md
+          - career/leetcode/daily/nov2023/1441-build-an-array-with-stack-operations.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
