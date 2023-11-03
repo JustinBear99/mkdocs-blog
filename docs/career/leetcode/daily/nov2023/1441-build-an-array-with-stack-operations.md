@@ -18,6 +18,7 @@ comments: true
 ## Intuition
 
 There are only two situation we faced with the `target` while growing the number stream **n**
+
 1. n == target entry: **Push** into the operation list.
 2. n != target entry: **Push** and then **Pop** since we don't need it. (could only be *less than*, so I use `while` loop)
 
@@ -41,6 +42,6 @@ class Solution:
 
 ## Complexity
 
-The time complexity is $$O(m)$$ where m is the last entry of `target`.
+The time complexity is **O(m)** where m is the last entry of `target`.
 
-The space complexity is $$O(m+n)$$ where m is the last entry of `target` and n is m minus the length of `target`.
+The space complexity is **O(m+n)** where m is the last entry of `target` and n is m minus the length of `target`.
