@@ -65,6 +65,7 @@ nav:
         - career/system-design/bytebytego/01-database-isolation-levels.md
     - Embedded:
       - career/embedded/configure-case-sensitivity-of-file-system.md
+    - career/oop-basics.md
   - Life: 
     - life/index.md
   - Tags: tags.md
