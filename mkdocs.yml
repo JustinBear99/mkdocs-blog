@@ -57,6 +57,7 @@ nav:
           - career/leetcode/daily/nov2023/1759-count-number-of-homogenous-substrings.md
           - career/leetcode/daily/nov2023/1743-restore-the-array-from-adjacent-pairs.md
           - career/leetcode/daily/nov2023/2642-design-graph-with-shortest-path-calculator.md
+          - career/leetcode/daily/nov2023/2785-sort-vowels-in-a-string.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
