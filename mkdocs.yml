@@ -60,6 +60,7 @@ nav:
           - career/leetcode/daily/nov2023/2785-sort-vowels-in-a-string.md
           - career/leetcode/daily/nov2023/1930-unique-length-3-palindromic-subsequences.md
           - career/leetcode/daily/nov2023/1846-maximum-element-after-decreasing-and-rearranging.md
+          - career/leetcode/daily/nov2023/1980-find-unique-binary-string.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
