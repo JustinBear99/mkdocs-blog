@@ -76,6 +76,7 @@ nav:
     - Embedded:
       - career/embedded/configure-case-sensitivity-of-file-system.md
       - career/embedded/extend-nginx-conf-from-oe.md
+      - career/embedded/install-python-module.md
     - career/oop-basics.md
   - Life: 
     - life/index.md
