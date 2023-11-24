@@ -70,6 +70,7 @@ nav:
           - career/leetcode/daily/nov2023/1814-count-nice-pairs-in-an-array.md
           - career/leetcode/daily/nov2023/1424-diagonal-traverse-2.md
           - career/leetcode/daily/nov2023/1630-arithmetic-subarrays.md
+          - career/leetcode/daily/nov2023/1561-maximum-number-of-coins-you-can-get.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
@@ -82,7 +83,7 @@ nav:
         - career/embedded/yocto/extend-nginx-conf-from-oe.md
         - career/embedded/yocto/install-python-module.md
     - General:
-      - career/oop-basics.md
+      - career/general/oop-basics.md
   - Life: 
     - life/index.md
   - Tags: tags.md
