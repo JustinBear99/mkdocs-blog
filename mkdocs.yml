@@ -16,8 +16,10 @@ theme:
   logo: assets/bear-head-svgrepo-com.svg
   favicon: assets/bear-head-svgrepo-com.svg
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
-    - navigation.sections
+    # - navigation.sections
     - navigation.indexes
     - navigation.footer
     - navigation.top
@@ -74,10 +76,13 @@ nav:
         - career/system-design/bytebytego/bytebytego-system-design.md
         - career/system-design/bytebytego/01-database-isolation-levels.md
     - Embedded:
-      - career/embedded/configure-case-sensitivity-of-file-system.md
-      - career/embedded/extend-nginx-conf-from-oe.md
-      - career/embedded/install-python-module.md
-    - career/oop-basics.md
+      - career/embedded/index.md
+      - Yocto:
+        - career/embedded/yocto/configure-case-sensitivity-of-file-system.md
+        - career/embedded/yocto/extend-nginx-conf-from-oe.md
+        - career/embedded/yocto/install-python-module.md
+    - General:
+      - career/oop-basics.md
   - Life: 
     - life/index.md
   - Tags: tags.md
