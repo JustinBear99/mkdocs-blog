@@ -85,6 +85,7 @@ nav:
         - career/embedded/yocto/install-python-module.md
     - General:
       - career/general/oop-basics.md
+      - career/general/remote-dev-env.md
   - Life: 
     - life/index.md
   - Tags: tags.md
