@@ -71,6 +71,7 @@ nav:
           - career/leetcode/daily/nov2023/1424-diagonal-traverse-2.md
           - career/leetcode/daily/nov2023/1630-arithmetic-subarrays.md
           - career/leetcode/daily/nov2023/1561-maximum-number-of-coins-you-can-get.md
+          - career/leetcode/daily/nov2023/1685-sum-of-absolute-differences-in-a-sorted-array.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
