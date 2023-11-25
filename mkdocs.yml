@@ -88,6 +88,7 @@ nav:
       - career/general/remote-dev-env.md
   - Life: 
     - life/index.md
+    - life/translate-python-doc-tw.md
   - Tags: tags.md
   
 markdown_extensions:
