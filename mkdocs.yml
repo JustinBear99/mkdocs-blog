@@ -1,4 +1,6 @@
 site_name: Justin Hsiung's Space
+repo_url: https://github.com/JustinBear99/mkdocs-blog
+repo_name: JustinBear99/mkdocs-blog
 theme:
   name: material
   custom_dir: overrides
@@ -28,6 +30,8 @@ plugins:
       tags_file: tags.md
   - search:
       lang: en
+  - git-revision-date-localized:
+      enable_creation_date: true
 extra:
   social:
     - icon: fontawesome/brands/github
