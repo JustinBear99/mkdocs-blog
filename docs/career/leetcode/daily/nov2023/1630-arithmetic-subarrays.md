@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-23
-  updated: 2023-11-23
+    created: 2023-11-23
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1630. Arithmetic Subarrays
 
 tags:
     - LeetCode

@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-09
-  updated: 2023-11-09
+    created: 2023-11-09
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1759. Count Number of Homogenous Substrings
 
 tags:
     - LeetCode

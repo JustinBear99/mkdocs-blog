@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-10-29
-  updated: 2023-10-29
+    created: 2023-10-29
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 458. Poor Pigs
 
 tags:
     - LeetCode

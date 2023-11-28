@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-10-31
-  updated: 2023-10-31
+    created: 2023-10-31
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 2433. Find The Original Array of Prefix Xor
 
 tags:
     - LeetCode

@@ -1,7 +1,10 @@
 ---
 date:
   created: 2023-11-23
-  updated: 2023-11-23
+  updated: 2023-11-28
+
+description: >
+  Tutorial and experience on adding Python dependencies for Yocto project.
 
 tags:
   - Embedded

@@ -1,7 +1,10 @@
 ---
 date:
   created: 2023-11-23
-  updated: 2023-11-23
+  updated: 2023-11-28
+
+description: >
+  Tutorial for extending Nginx recipe with .bbappend file while serving it as reverse proxy server for our application server.
 
 tags:
   - Embedded

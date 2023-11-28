@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-16
-  updated: 2023-11-16
+    created: 2023-11-16
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1980. Find Unique Binary String
 
 tags:
     - LeetCode

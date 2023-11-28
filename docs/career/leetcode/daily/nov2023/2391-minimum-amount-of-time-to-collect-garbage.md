@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-21
-  updated: 2023-11-21
+    created: 2023-11-21
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 2391. Minimum Amount of Time to Collect Garbage
 
 tags:
     - LeetCode

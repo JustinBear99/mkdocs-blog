@@ -1,7 +1,10 @@
 ---
 date:
   created: 2023-11-14
-  updated: 2023-11-14
+  updated: 2023-11-28
+
+description: >
+  Introduction to the basic of object-orient programming characteristics.
 
 tags:
     - OOP

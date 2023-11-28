@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-04
-  updated: 2023-11-04
+    created: 2023-11-04
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1503. Last Moment Before All Ants Fall Out of a Plank
 
 tags:
     - LeetCode

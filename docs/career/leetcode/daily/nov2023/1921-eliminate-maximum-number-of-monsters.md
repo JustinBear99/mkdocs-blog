@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-07
-  updated: 2023-11-07
+    created: 2023-11-07
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1921. Eliminate Maximum Number of Monsters
 
 tags:
     - LeetCode

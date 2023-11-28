@@ -1,7 +1,10 @@
 ---
 date:
   created: 2023-10-30
-  updated: 2023-10-30
+  updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1356. Sort Integers by The Number of 1 Bits
 
 tags:
     - LeetCode

@@ -1,7 +1,10 @@
 ---
 date:
   created: 2023-11-24
-  updated: 2023-11-25
+  updated: 2023-11-28
+
+description: >
+  Motivation and guide on hosting remote (cloud) developmenet environment using machine of your own.
 
 tags:
     - Cool

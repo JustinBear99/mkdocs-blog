@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-15
-  updated: 2023-11-15
+    created: 2023-11-15
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1846. Maximum Element After Decreasing and Rearranging
 
 tags:
     - LeetCode

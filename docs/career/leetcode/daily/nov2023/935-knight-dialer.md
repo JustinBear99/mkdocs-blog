@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-27
-  updated: 2023-11-27
+    created: 2023-11-27
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 935. Knight Dialer
 
 tags:
     - LeetCode

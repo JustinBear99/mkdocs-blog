@@ -1,7 +1,10 @@
 ---
 date:
   created: 2023-11-25
-  updated: 2023-11-25
+  updated: 2023-11-28
+
+description: >
+  第一次參加線下社群活動的經驗分享
 
 tags:
     - Python

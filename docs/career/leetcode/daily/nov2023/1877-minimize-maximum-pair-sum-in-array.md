@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-17
-  updated: 2023-11-17
+    created: 2023-11-17
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1877. Minimize Maximum Pair Sum in Array
 
 tags:
     - LeetCode

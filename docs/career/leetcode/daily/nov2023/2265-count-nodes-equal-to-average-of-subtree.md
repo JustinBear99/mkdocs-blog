@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-02
-  updated: 2023-11-02
+    created: 2023-11-02
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 2265. Count Nodes Equal to Average of Subtree
 
 tags:
     - LeetCode

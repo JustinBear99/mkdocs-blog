@@ -1,7 +1,10 @@
 ---
 date:
   created: 2023-11-01
-  updated: 2023-11-01
+  updated: 2023-11-28
+
+description: >
+  Change case sensitivity for Windows 11 running WSL 2.
 
 tags:
   - Embedded

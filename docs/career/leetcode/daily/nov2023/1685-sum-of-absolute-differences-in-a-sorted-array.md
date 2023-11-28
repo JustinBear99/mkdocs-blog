@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-11-25
-  updated: 2023-11-25
+    created: 2023-11-25
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1685. Sum of Absolute Differences in a Sorted Array
 
 tags:
     - LeetCode

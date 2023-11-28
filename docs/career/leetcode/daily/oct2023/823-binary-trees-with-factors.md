@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2023-10-26
-  updated: 2023-10-26
+    created: 2023-10-26
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 823. Binary Trees with Factors
 
 tags:
     - LeetCode

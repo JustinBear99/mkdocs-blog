@@ -1,14 +1,17 @@
 ---
 date:
-  created: 2023-11-06
-  updated: 2023-11-06
+    created: 2023-11-06
+    updated: 2023-11-28
+
+description: >
+	Solution for Leet Code 1845. Seat Reservation Manager
 
 tags:
     - LeetCode
 
 comments: true
 ---
-# 1845-seat-reservation-manager.md
+# 1845. Seat Reservation Manager
 
 ## Description
 
