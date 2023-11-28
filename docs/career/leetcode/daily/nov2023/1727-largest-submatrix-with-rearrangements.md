@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1727. Largest Submatrix With Rearrangements
+    Solution for Leet Code 1727. Largest Submatrix With Rearrangements
 
 tags:
     - LeetCode

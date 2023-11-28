@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1424. Diagonal Traverse II
+    Solution for Leet Code 1424. Diagonal Traverse II
 
 tags:
     - LeetCode

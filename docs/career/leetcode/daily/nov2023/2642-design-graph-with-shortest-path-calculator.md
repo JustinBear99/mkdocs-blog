@@ -4,7 +4,7 @@ date:
     updated: 2023-11-07
 
 description: >
-	Solution for Leet Code 2642. Design Graph With Shortest Path Calculator
+    Solution for Leet Code 2642. Design Graph With Shortest Path Calculator
 
 tags:
     - LeetCode

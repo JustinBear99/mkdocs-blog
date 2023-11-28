@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1887. Reduction Operations to Make the Array Elements Equal
+    Solution for Leet Code 1887. Reduction Operations to Make the Array Elements Equal
 
 tags:
     - LeetCode

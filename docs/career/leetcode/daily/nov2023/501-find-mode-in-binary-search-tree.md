@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 501. Find Mode in Binary Search Tree
+    Solution for Leet Code 501. Find Mode in Binary Search Tree
 
 tags:
     - LeetCode

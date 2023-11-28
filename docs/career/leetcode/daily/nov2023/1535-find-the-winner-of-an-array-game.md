@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1535. Find the Winner of an Array Game
+    Solution for Leet Code 1535. Find the Winner of an Array Game
 
 tags:
     - LeetCode

@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 2147. Number of Ways to Divide a Long Corridor
+    Solution for Leet Code 2147. Number of Ways to Divide a Long Corridor
 
 tags:
     - LeetCode

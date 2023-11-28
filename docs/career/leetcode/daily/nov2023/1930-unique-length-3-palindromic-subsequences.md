@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1930. Unique Length-3 Palindromic Subsequences
+    Solution for Leet Code 1930. Unique Length-3 Palindromic Subsequences
 
 tags:
     - LeetCode

@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1814. Count Nice Pairs in an Array
+    Solution for Leet Code 1814. Count Nice Pairs in an Array
 
 tags:
     - LeetCode

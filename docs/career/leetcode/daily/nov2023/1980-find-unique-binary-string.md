@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1980. Find Unique Binary String
+    Solution for Leet Code 1980. Find Unique Binary String
 
 tags:
     - LeetCode

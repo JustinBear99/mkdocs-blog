@@ -1,17 +1,16 @@
 ---
 date:
-	created: 2023-10-27
-	updated: 2023-11-28
+  created: 2023-10-27
+  updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 5. Longest Palindromic Substring
+  Solution for Leet Code 5. Longest Palindromic Substring
 
 tags:
-	- LeetCode
+  - LeetCode
 
 comments: true
 ---
-
 # 5. Longest Palindromic Substring
 
 ## Description

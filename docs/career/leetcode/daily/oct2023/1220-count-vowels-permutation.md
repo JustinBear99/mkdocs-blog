@@ -1,13 +1,13 @@
 ---
 date:
-    created: 2023-10-28
-    updated: 2023-11-28
+  created: 2023-10-28
+  updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1220. Count Vowels Permutation
+  Solution for Leet Code 1220. Count Vowels Permutation
 
 tags:
-    - LeetCode
+  - LeetCode
 
 comments: true
 ---

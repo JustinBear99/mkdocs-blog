@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1759. Count Number of Homogenous Substrings
+    Solution for Leet Code 1759. Count Number of Homogenous Substrings
 
 tags:
     - LeetCode

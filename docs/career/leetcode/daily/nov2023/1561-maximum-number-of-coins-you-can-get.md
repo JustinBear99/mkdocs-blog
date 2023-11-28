@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1561. Maximum Number of Coins You Can Get
+    Solution for Leet Code 1561. Maximum Number of Coins You Can Get
 
 tags:
     - LeetCode

@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 2785. Sort Vowels in a String
+    Solution for Leet Code 2785. Sort Vowels in a String
 
 tags:
     - LeetCode

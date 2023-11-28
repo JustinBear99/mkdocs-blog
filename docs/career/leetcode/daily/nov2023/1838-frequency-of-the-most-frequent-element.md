@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1838. Frequency of the Most Frequent Element
+    Solution for Leet Code 1838. Frequency of the Most Frequent Element
 
 tags:
     - LeetCode

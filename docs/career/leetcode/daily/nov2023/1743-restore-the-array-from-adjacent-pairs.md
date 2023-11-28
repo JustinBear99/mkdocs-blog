@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1743. Restore the Array From Adjacent Pairs
+    Solution for Leet Code 1743. Restore the Array From Adjacent Pairs
 
 tags:
     - LeetCode

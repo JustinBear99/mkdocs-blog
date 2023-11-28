@@ -4,7 +4,7 @@ date:
     updated: 2023-11-28
 
 description: >
-	Solution for Leet Code 1441. Build an Array With Stack Operations
+    Solution for Leet Code 1441. Build an Array With Stack Operations
 
 tags:
     - LeetCode
