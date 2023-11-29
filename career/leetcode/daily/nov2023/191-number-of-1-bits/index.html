@@ -6,31 +6,27 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Tutorial and experience on adding Python dependencies for Yocto project.
+        <meta name="description" content="Solution for Leet Code 191. Number of 1 Bits
 ">
       
       
       
       
-        <link rel="prev" href="../extend-nginx-conf-from-oe/">
       
       
-        <link rel="next" href="../../../general/oop-basics/">
-      
-      
-      <link rel="icon" href="../../../../assets/bear-head-svgrepo-com.svg">
+      <link rel="icon" href="../../../../../assets/bear-head-svgrepo-com.svg">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
     
     
       
-        <title>Install Python Modules in Yocto - Justin Hsiung's Space</title>
+        <title>191. Number of 1 Bits - Justin Hsiung's Space</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.fad675c6.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.fad675c6.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -49,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#install-python-modules-in-yocto" class="md-skip">
+        <a href="#191-number-of-1-bits" class="md-skip">
           Skip to content
         </a>
       
@@ -92,9 +88,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../.." title="Justin Hsiung&#39;s Space" class="md-header__button md-logo" aria-label="Justin Hsiung's Space" data-md-component="logo">
+    <a href="../../../../.." title="Justin Hsiung&#39;s Space" class="md-header__button md-logo" aria-label="Justin Hsiung's Space" data-md-component="logo">
       
-  <img src="../../../../assets/bear-head-svgrepo-com.svg" alt="logo">
+  <img src="../../../../../assets/bear-head-svgrepo-com.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -111,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Install Python Modules in Yocto
+              191. Number of 1 Bits
             
           </span>
         </div>
@@ -215,7 +211,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../.." class="md-tabs__link">
+      <a href="../../../../.." class="md-tabs__link">
         
   
     
@@ -230,13 +226,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../../../" class="md-tabs__link">
           
   
     
@@ -256,7 +250,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../life/" class="md-tabs__link">
+        <a href="../../../../../life/" class="md-tabs__link">
           
   
     
@@ -274,7 +268,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../tags/" class="md-tabs__link">
+      <a href="../../../../../tags/" class="md-tabs__link">
         
   
     
@@ -308,9 +302,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="Justin Hsiung&#39;s Space" class="md-nav__button md-logo" aria-label="Justin Hsiung's Space" data-md-component="logo">
+    <a href="../../../../.." title="Justin Hsiung&#39;s Space" class="md-nav__button md-logo" aria-label="Justin Hsiung's Space" data-md-component="logo">
       
-  <img src="../../../../assets/bear-head-svgrepo-com.svg" alt="logo">
+  <img src="../../../../../assets/bear-head-svgrepo-com.svg" alt="logo">
 
     </a>
     Justin Hsiung's Space
@@ -337,7 +331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -354,8 +348,6 @@
       
   
   
-    
-  
   
   
     
@@ -380,17 +372,17 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../" class="md-nav__link ">
+            <a href="../../../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -407,7 +399,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Career
@@ -445,7 +437,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../leetcode/" class="md-nav__link ">
+            <a href="../../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -572,7 +564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/oct2023/823-binary-trees-with-factors/" class="md-nav__link">
+      <a href="../../oct2023/823-binary-trees-with-factors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -593,7 +585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/oct2023/5-longest-palindromic-substring/" class="md-nav__link">
+      <a href="../../oct2023/5-longest-palindromic-substring/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -614,7 +606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/oct2023/1220-count-vowels-permutation/" class="md-nav__link">
+      <a href="../../oct2023/1220-count-vowels-permutation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -635,7 +627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/oct2023/458-poor-pigs/" class="md-nav__link">
+      <a href="../../oct2023/458-poor-pigs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -656,7 +648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/oct2023/1356-sort-integers-by-the-number-of-1-bits/" class="md-nav__link">
+      <a href="../../oct2023/1356-sort-integers-by-the-number-of-1-bits/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -677,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/oct2023/2433-find-the-original-array-of-prefix-xor/" class="md-nav__link">
+      <a href="../../oct2023/2433-find-the-original-array-of-prefix-xor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -799,7 +791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/501-find-mode-in-binary-search-tree/" class="md-nav__link">
+      <a href="../501-find-mode-in-binary-search-tree/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -820,7 +812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/2265-count-nodes-equal-to-average-of-subtree/" class="md-nav__link">
+      <a href="../2265-count-nodes-equal-to-average-of-subtree/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -841,7 +833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1441-build-an-array-with-stack-operations/" class="md-nav__link">
+      <a href="../1441-build-an-array-with-stack-operations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -862,7 +854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1503-last-moment-before-all-ants-fall-out-of-a-plank/" class="md-nav__link">
+      <a href="../1503-last-moment-before-all-ants-fall-out-of-a-plank/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -883,7 +875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1535-find-the-winner-of-an-array-game/" class="md-nav__link">
+      <a href="../1535-find-the-winner-of-an-array-game/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -904,7 +896,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1845-seat-reservation-manager/" class="md-nav__link">
+      <a href="../1845-seat-reservation-manager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -925,7 +917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1921-eliminate-maximum-number-of-monsters/" class="md-nav__link">
+      <a href="../1921-eliminate-maximum-number-of-monsters/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -946,7 +938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1759-count-number-of-homogenous-substrings/" class="md-nav__link">
+      <a href="../1759-count-number-of-homogenous-substrings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -967,7 +959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1743-restore-the-array-from-adjacent-pairs/" class="md-nav__link">
+      <a href="../1743-restore-the-array-from-adjacent-pairs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -988,7 +980,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/2642-design-graph-with-shortest-path-calculator/" class="md-nav__link">
+      <a href="../2642-design-graph-with-shortest-path-calculator/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1009,7 +1001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/2785-sort-vowels-in-a-string/" class="md-nav__link">
+      <a href="../2785-sort-vowels-in-a-string/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1030,7 +1022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1930-unique-length-3-palindromic-subsequences/" class="md-nav__link">
+      <a href="../1930-unique-length-3-palindromic-subsequences/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1051,7 +1043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1846-maximum-element-after-decreasing-and-rearranging/" class="md-nav__link">
+      <a href="../1846-maximum-element-after-decreasing-and-rearranging/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1072,7 +1064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1980-find-unique-binary-string/" class="md-nav__link">
+      <a href="../1980-find-unique-binary-string/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1093,7 +1085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1877-minimize-maximum-pair-sum-in-array/" class="md-nav__link">
+      <a href="../1877-minimize-maximum-pair-sum-in-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1114,7 +1106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1838-frequency-of-the-most-frequent-element/" class="md-nav__link">
+      <a href="../1838-frequency-of-the-most-frequent-element/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1135,7 +1127,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1887-reduction-operations-to-make-the-array-elements-equal/" class="md-nav__link">
+      <a href="../1887-reduction-operations-to-make-the-array-elements-equal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1156,7 +1148,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/2391-minimum-amount-of-time-to-collect-garbage/" class="md-nav__link">
+      <a href="../2391-minimum-amount-of-time-to-collect-garbage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1177,7 +1169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1814-count-nice-pairs-in-an-array/" class="md-nav__link">
+      <a href="../1814-count-nice-pairs-in-an-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1198,7 +1190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1424-diagonal-traverse-2/" class="md-nav__link">
+      <a href="../1424-diagonal-traverse-2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1219,7 +1211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1630-arithmetic-subarrays/" class="md-nav__link">
+      <a href="../1630-arithmetic-subarrays/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1240,7 +1232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1561-maximum-number-of-coins-you-can-get/" class="md-nav__link">
+      <a href="../1561-maximum-number-of-coins-you-can-get/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1261,7 +1253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1685-sum-of-absolute-differences-in-a-sorted-array/" class="md-nav__link">
+      <a href="../1685-sum-of-absolute-differences-in-a-sorted-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1282,7 +1274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/1727-largest-submatrix-with-rearrangements/" class="md-nav__link">
+      <a href="../1727-largest-submatrix-with-rearrangements/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1303,7 +1295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/935-knight-dialer/" class="md-nav__link">
+      <a href="../935-knight-dialer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1324,7 +1316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/2147-number-of-ways-to-divide-a-long-corridor/" class="md-nav__link">
+      <a href="../2147-number-of-ways-to-divide-a-long-corridor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1345,7 +1337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leetcode/daily/nov2023/91-number-of-1-bits.md" class="md-nav__link">
+      <a href="../91-number-of-1-bits.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1412,7 +1404,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../system-design/" class="md-nav__link ">
+            <a href="../../../../system-design/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1488,7 +1480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../system-design/bytebytego/bytebytego-system-design/" class="md-nav__link">
+      <a href="../../../../system-design/bytebytego/bytebytego-system-design/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1509,7 +1501,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../system-design/bytebytego/01-database-isolation-levels/" class="md-nav__link">
+      <a href="../../../../system-design/bytebytego/01-database-isolation-levels/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1543,8 +1535,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1560,17 +1550,17 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../../../embedded/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1587,7 +1577,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             Embedded
@@ -1600,10 +1590,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -1617,12 +1605,12 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_2" >
         
           
           <label class="md-nav__link" for="__nav_2_4_2" id="__nav_2_4_2_label" tabindex="0">
@@ -1636,7 +1624,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4_2">
             <span class="md-nav__icon md-icon"></span>
             Yocto
@@ -1650,7 +1638,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../configure-case-sensitivity-of-file-system/" class="md-nav__link">
+      <a href="../../../../embedded/yocto/configure-case-sensitivity-of-file-system/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1671,7 +1659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../extend-nginx-conf-from-oe/" class="md-nav__link">
+      <a href="../../../../embedded/yocto/extend-nginx-conf-from-oe/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1689,30 +1677,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Install Python Modules in Yocto
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../../embedded/yocto/install-python-module/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1721,53 +1689,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pipoe-a-handy-tool-for-embedded-world" class="md-nav__link">
-    <span class="md-ellipsis">
-      pipoe: A Handy Tool for Embedded World
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build-by-setuppy-or-pypi" class="md-nav__link">
-    <span class="md-ellipsis">
-      Build by setup.py or Pypi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#other-issues" class="md-nav__link">
-    <span class="md-ellipsis">
-      Other Issues
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1839,7 +1760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../general/oop-basics/" class="md-nav__link">
+      <a href="../../../../general/oop-basics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1860,7 +1781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../general/remote-dev-env/" class="md-nav__link">
+      <a href="../../../../general/remote-dev-env/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1921,7 +1842,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../life/" class="md-nav__link ">
+            <a href="../../../../../life/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1954,7 +1875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../life/translate-python-doc-tw/" class="md-nav__link">
+      <a href="../../../../../life/translate-python-doc-tw/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1982,7 +1903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tags/" class="md-nav__link">
+      <a href="../../../../../tags/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2022,27 +1943,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pipoe-a-handy-tool-for-embedded-world" class="md-nav__link">
+  <a href="#description" class="md-nav__link">
     <span class="md-ellipsis">
-      pipoe: A Handy Tool for Embedded World
+      Description
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#build-by-setuppy-or-pypi" class="md-nav__link">
+  <a href="#code" class="md-nav__link">
     <span class="md-ellipsis">
-      Build by setup.py or Pypi
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#other-issues" class="md-nav__link">
-    <span class="md-ellipsis">
-      Other Issues
+      Code
     </span>
   </a>
   
@@ -2067,25 +1979,7 @@
     
     
     
-      <a href="../../../../tags/#embedded" class="md-tag">Embedded</a>
-    
-  
-    
-    
-    
-      <a href="../../../../tags/#yocto" class="md-tag">Yocto</a>
-    
-  
-    
-    
-    
-      <a href="../../../../tags/#bitbake" class="md-tag">BitBake</a>
-    
-  
-    
-    
-    
-      <a href="../../../../tags/#python" class="md-tag">Python</a>
+      <a href="../../../../../tags/#leetcode" class="md-tag">LeetCode</a>
     
   
 </nav>
@@ -2095,70 +1989,28 @@
   
 
 
-<h1 id="install-python-modules-in-yocto">Install Python Modules in Yocto</h1>
-<h2 id="pipoe-a-handy-tool-for-embedded-world">pipoe: A Handy Tool for Embedded World</h2>
-<p>When developing Python apps in a Yocto project, we may have chances to use some modules that don't come within the default <code>/meta-openembedded/meta-python</code> or the version doesn't match our need. Therefore, we have to manually define the <code>.bb</code> files for those dependencies and that is a pain in the ass...</p>
-<p>Thankfully, there is a tool named <a href="https://pypi.org/project/pipoe/"><code>pipoe</code></a> working like <code>pip</code> but for <code>oe</code> (openembedded) that can generate <code>.bb</code> files for us (😍).</p>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>pipoe
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>pipoe<span class="w"> </span>--package<span class="w"> </span>&lt;target_module&gt;<span class="w"> </span>--python<span class="w"> </span>&lt;python_version&gt;
-</span></code></pre></div>
-<p>The generated <code>.bb</code> files <em>should</em> be ready to go!</p>
-<h2 id="build-by-setuppy-or-pypi">Build by setup.py or Pypi</h2>
-<p>I believe that most Python developers know that there are many ways of install a module, <code>pip</code> with internet, <code>pip</code> with <code>wheel</code>, source with <code>setup.py</code>, yada yada. Although the <a href="https://packaging.python.org/en/latest/guides/tool-recommendations/">community</a> now is promoting <code>pyproject.toml</code> and <code>pypi</code> to build, there are still many projects using <code>setup.py</code> and <code>setuptools</code>. (Please correct me if wrong. I'm not a professional Python developer though.)</p>
-<p>Get back to the business. The generated <code>.bb</code> files <strong>all</strong> use <code>setuptools</code> to build and I've encountered several build errors. To fix these, you can manually change the build method to use <code>pypi</code> like me and here's the example.</p>
-<div class="language-apacheconf highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c"># python3-blinker_1.7.0.bb</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">SUMMARY</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;Fast, simple object-to-object and broadcast signaling&quot;</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nb">HOMEPAGE</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;&quot;</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nb">AUTHOR</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot; &lt;Jason Kirtland &lt;jek@discorporate.us&gt;&gt;&quot;</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nb">LICENSE</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;MIT&quot;</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="nb">LIC_FILES_CHKSUM</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;file://LICENSE.rst;md5=42cd19c88fc13d1307a4efd64ee90e4e&quot;</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="nb">SRC_URI</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;https://files.pythonhosted.org/packages/a1/13/6df5fc090ff4e5d246baf1f45fe9e5623aa8565757dfa5bd243f6a545f9e/blinker-1.7.0.tar.gz&quot;</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="nb">SRC_URI</span>[md5sum]<span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;0306b831281e9918ffb0ac6e3e18b47f&quot;</span>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="nb">SRC_URI</span>[sha256sum]<span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;e6820ff6fa4e4d1d8e2747c2283749c3f547e4fee112b98555cdcdae32996182&quot;</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="nb">S</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;${WORKDIR}/blinker-1.7.0&quot;</span>
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="nb">RDEPENDS</span>:${PN}<span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;&quot;</span>
-</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
-</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="nb">FILES</span>:${PN}<span class="w"> </span>+=<span class="w"> </span><span class="s2">&quot;${libdir}/python3.10/site-packages/blinker&quot;</span>
-</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>
-</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="c"># change to use pypi</span>
-</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="nb">inherit</span><span class="w"> </span>pypi
-</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>
-</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="c"># manually install to site-packages and copy source there</span>
-</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="nb">do_install</span>()<span class="w"> </span>{
-</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">    </span><span class="nb">install</span><span class="w"> </span>-m<span class="w"> </span><span class="m">777</span><span class="w"> </span>-d<span class="w"> </span>${D}${libdir}/python3.10/site-packages/
-</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">    </span><span class="nb">cp</span><span class="w"> </span>-r<span class="w"> </span>${S}/src/blinker<span class="w"> </span>${D}${libdir}/python3.10/site-packages/blinker
-</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="err">}</span>
-</span></code></pre></div>
-<h2 id="other-issues">Other Issues</h2>
-<p>From the above example, you can notice that the source was downloaded from some remote mirror website. Unfortunately, when I tried to install <code>MarkupSafe</code>, it seemed to be missing at the remote storage and having some capitailizing problem (<em>MarkupSafe</em> and <em>markupsafe</em>). So I have to manually download the <code>.tar.gz</code> file and install manually.</p>
-<p>Here is the exmaple for <code>MarkupSafe</code> 2.1.3</p>
-<div class="language-apacheconf highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">SUMMARY</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;Safely add untrusted strings to HTML/XML markup.&quot;</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">HOMEPAGE</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;https://palletsprojects.com/p/markupsafe/&quot;</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nb">AUTHOR</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot; &lt;&gt;&quot;</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nb">LICENSE</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;BSD-3-Clause&quot;</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nb">LIC_FILES_CHKSUM</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;file://LICENSE.rst;md5=ffeffa59c90c9c4a033c7574f8f3fb75&quot;</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="c"># manually download the source and put in `files`</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="nb">SRC_URI</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;file://MarkupSafe-2.1.3.tar.gz&quot;</span>
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="nb">SRC_URI</span>[md5sum]<span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;ca33f119bd0551ce15837f58bb180214&quot;</span>
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="nb">SRC_URI</span>[sha256sum]<span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;af598ed32d6ae86f1b747b82783958b1a4ab8f617b06fe68795c7f026abbdcad&quot;</span>
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
-</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="nb">S</span><span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;${WORKDIR}/MarkupSafe-2.1.3&quot;</span>
-</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
-</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="nb">RDEPENDS</span>:${PN}<span class="w"> </span>=<span class="w"> </span><span class="s2">&quot;&quot;</span>
-</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>
-</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="nb">FILES</span>:${PN}<span class="w"> </span>+=<span class="w"> </span><span class="s2">&quot;${libdir}/python3.10/site-packages/markupsafe&quot;</span>
-</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>
-</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="nb">inherit</span><span class="w"> </span>setuptools3
-</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>
-</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="nb">do_install</span>()<span class="w"> </span>{
-</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="w">    </span><span class="nb">install</span><span class="w"> </span>-m<span class="w"> </span><span class="m">777</span><span class="w"> </span>-d<span class="w"> </span>${D}${libdir}/python3.10/site-packages/
-</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="w">    </span><span class="nb">cp</span><span class="w"> </span>-r<span class="w"> </span>${WORKDIR}/MarkupSafe-2.1.3/src/markupsafe<span class="w"> </span>${D}${libdir}/python3.10/site-packages/markupsafe
-</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="err">}</span>
+<h1 id="191-number-of-1-bits">191. Number of 1 Bits</h1>
+<h2 id="description">Description</h2>
+<p>Find the number of bit <code>1</code> in the binary representation of given integer.</p>
+<h2 id="code">Code</h2>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Divide and remain</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="k">def</span> <span class="nf">hammingWeight</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>        <span class="k">while</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>            <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>                <span class="n">ans</span> <span class="o">+=</span> <span class="mi">1</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>            <span class="n">n</span> <span class="o">=</span> <span class="n">n</span> <span class="o">//</span> <span class="mi">2</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>        <span class="k">return</span> <span class="n">ans</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="c1"># bit manipulation</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    <span class="k">def</span> <span class="nf">hammingWeight</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>        <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>        <span class="k">while</span> <span class="n">n</span><span class="p">:</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>            <span class="n">n</span> <span class="o">&amp;=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>            <span class="n">ans</span> <span class="o">+=</span> <span class="mi">1</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>        <span class="k">return</span> <span class="n">ans</span>
 </span></code></pre></div>
 
   <hr>
@@ -2166,11 +2018,11 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 28, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 29, 2023</span>
       
         <br>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 23, 2023</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 29, 2023</span>
       
     
   </small>
@@ -2245,44 +2097,6 @@
         <footer class="md-footer">
   
     
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
-        
-          
-          <a href="../extend-nginx-conf-from-oe/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Extend Nginx Service from OpenEmbedded Default Recipe">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Extend Nginx Service from OpenEmbedded Default Recipe
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../../../general/oop-basics/" class="md-footer__link md-footer__link--next" aria-label="Next: Object-Oriented Programming Introduction">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Object-Oriented Programming Introduction
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -2334,10 +2148,10 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.indexes", "navigation.footer", "navigation.top"], "search": "../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.indexes", "navigation.footer", "navigation.top"], "search": "../../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
       
     
   </body>
