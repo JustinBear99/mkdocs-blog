@@ -1591,11 +1591,86 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#read-phenomena" class="md-nav__link">
+    <span class="md-ellipsis">
+      Read Phenomena
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Read Phenomena">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dirty-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dirty Read
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-repeatable-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      Non-repeatable Read
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phamtom-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phamtom Read
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#isolation-levels" class="md-nav__link">
     <span class="md-ellipsis">
       Isolation Levels
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-important-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Important Knowledge
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Important Knowledge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiversion-concurrency-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiversion Concurrency Control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acid" class="md-nav__link">
+    <span class="md-ellipsis">
+      ACID
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2045,11 +2120,86 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#read-phenomena" class="md-nav__link">
+    <span class="md-ellipsis">
+      Read Phenomena
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Read Phenomena">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dirty-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dirty Read
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-repeatable-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      Non-repeatable Read
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phamtom-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phamtom Read
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#isolation-levels" class="md-nav__link">
     <span class="md-ellipsis">
       Isolation Levels
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-important-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Important Knowledge
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Important Knowledge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiversion-concurrency-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiversion Concurrency Control
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acid" class="md-nav__link">
+    <span class="md-ellipsis">
+      ACID
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2089,8 +2239,8 @@
 
 
 <h1 id="what-are-database-isolation-levels-what-are-they-used-for">What are database isolation levels? What are they used for?</h1>
+<p>Before we discuss about isolation levels, let's review some important features used in modern database.</p>
 <h2 id="locks">Locks</h2>
-<p>Before we discuss about isolation levels, let's review the locks used in database.</p>
 <ul>
 <li>S Lock (Shared Lock): S Lock locks the write permission for other transactions while read operation is still allowed.</li>
 <li>X Lock (Exclusive Lock): X Lock, on the other hand, locks both read and write operation once a transaction obtained it.</li>
@@ -2116,21 +2266,73 @@
 </tr>
 </tbody>
 </table>
+<ul>
+<li>range lock: lock multiple records in a table when SQL containing description like <code>WHERE length &gt; 10</code>.</li>
+</ul>
+<h2 id="read-phenomena">Read Phenomena</h2>
+<h3 id="dirty-read">Dirty Read</h3>
+<p>Dirty read occurs when a transaction reads some value while another transaction is updating the value without committing or even rollback at the end. Now, the first transaction reads may acquire non-committed value.</p>
+<h3 id="non-repeatable-read">Non-repeatable Read</h3>
+<p>Similar to dirty read but the second transaction commits the change. Then, the first transaction would have inconsistent value during reads.</p>
+<h3 id="phamtom-read">Phamtom Read</h3>
+<p>Phamtom read may occur when the query contains <code>WHERE</code> clause.</p>
+<p>While a transaction have selected records with <code>WHERE</code> and another transaction modifies some records within the <code>WHERE</code> statement. The selected records would change if the first transaction selects again.</p>
 <h2 id="isolation-levels">Isolation Levels</h2>
 <p>There are four levels of isolation:</p>
 <ol>
-<li>Serializable: higest level, see <a href="https://en.wikipedia.org/wiki/Serializability">serializability</a> for concept of the naming. </li>
-<li>Repeatable read</li>
-<li>Read committed</li>
-<li>Read uncommitted</li>
+<li>Serializable: higest level, transaction must obtain x lock and range lock if used and can avoid <strong>phamtom read</strong>. See <a href="https://en.wikipedia.org/wiki/Serializability">serializability</a> for more. </li>
+<li>Repeatable read: transaction must get x lock (but not range lock) to read and write record. Phamtom read may occur but ensure non-repeatable read from happening. </li>
+<li>Read committed: transaction is allowed to read commited data during transaction so non-repeatable read may happend.</li>
+<li>Read uncommitted: basically no limit. Dirty read could happen.</li>
 </ol>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Phamtom read</th>
+<th>Non-repeatable read</th>
+<th>Dirty read</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Serializable</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Repeatable read</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Read commited</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Read uncommitted</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="other-important-knowledge">Other Important Knowledge</h2>
+<h3 id="multiversion-concurrency-control">Multiversion Concurrency Control</h3>
+<p><a href="https://en.wikipedia.org/wiki/Multiversion_concurrency_control">Multiversion concurrency control</a> (MCC or MVCC) is widely used in RDBMS for concurrent transactional management. The idea is to have multiple snapshots for concurrent transactions to achieve isolation.</p>
+<h3 id="acid">ACID</h3>
+<p><a href="https://en.wikipedia.org/wiki/ACID">ACID</a> stands for Atomicity, Consistency, Isolation and Durability.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 28, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 30, 2023</span>
       
         <br>
         Created:
