@@ -1,7 +1,7 @@
 ---
 date:
-    created: 2023-11-13
-    updated: 2023-11-28
+    created: 2023-11-29
+    updated: 2023-11-30
 
 description: >
     Solution for Leet Code 191. Number of 1 Bits
