@@ -4,7 +4,7 @@ date:
     updated: 2023-11-30
 
 description: >
-    Solution for Leet Code 191. Number of 1 Bits
+    Solution for Leet Code 1611. Minimum One Bit Operations to Make Integers Zero
 
 tags:
     - LeetCode

@@ -81,6 +81,8 @@ nav:
           - career/leetcode/daily/nov2023/2147-number-of-ways-to-divide-a-long-corridor.md
           - career/leetcode/daily/nov2023/191-number-of-1-bits.md
           - career/leetcode/daily/nov2023/1611-minimum-one-bit-operations-to-make-integers-zero.md
+        - Dec 2023:
+          - career/leetcode/daily/dev2023/1662-check-if-two-string-arrays-are-equivalent.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
