@@ -82,7 +82,7 @@ nav:
           - career/leetcode/daily/nov2023/191-number-of-1-bits.md
           - career/leetcode/daily/nov2023/1611-minimum-one-bit-operations-to-make-integers-zero.md
         - Dec 2023:
-          - career/leetcode/daily/dev2023/1662-check-if-two-string-arrays-are-equivalent.md
+          - career/leetcode/daily/dec2023/1662-check-if-two-string-arrays-are-equivalent.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
@@ -100,6 +100,8 @@ nav:
   - Life: 
     - life/index.md
     - life/translate-python-doc-tw.md
+    - GCSJ 2023:
+      - life/gcsj2023/index.md
   - Tags: tags.md
   
 markdown_extensions:

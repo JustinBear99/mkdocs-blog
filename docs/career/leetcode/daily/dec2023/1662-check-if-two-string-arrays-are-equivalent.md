@@ -1,7 +1,7 @@
 ---
 date:
-    created: 2023-11-13
-    updated: 2023-11-28
+    created: 2023-12-01
+    updated: 2023-12-01
 
 description: >
     Solution for Leet Code 1662. Check If Two String Arrays are Equivalent
