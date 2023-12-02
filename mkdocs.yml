@@ -83,6 +83,7 @@ nav:
           - career/leetcode/daily/nov2023/1611-minimum-one-bit-operations-to-make-integers-zero.md
         - Dec 2023:
           - career/leetcode/daily/dec2023/1662-check-if-two-string-arrays-are-equivalent.md
+          - career/leetcode/daily/dec2023/1160-find-words-that-can-be-formed-by-characters.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
