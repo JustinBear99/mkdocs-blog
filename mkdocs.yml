@@ -84,6 +84,7 @@ nav:
         - Dec 2023:
           - career/leetcode/daily/dec2023/1662-check-if-two-string-arrays-are-equivalent.md
           - career/leetcode/daily/dec2023/1160-find-words-that-can-be-formed-by-characters.md
+          - career/leetcode/daily/dec2023/266-minimum-time-visiting-all-points.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
