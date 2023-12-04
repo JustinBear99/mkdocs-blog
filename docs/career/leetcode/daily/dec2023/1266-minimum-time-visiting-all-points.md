@@ -1,7 +1,7 @@
 ---
 date:
-    created: 2023-12-02
-    updated: 2023-12-02
+    created: 2023-12-03
+    updated: 2023-12-03
 
 description: >
     Solution for Leet Code 1266. Minimum Time Visiting All Points
