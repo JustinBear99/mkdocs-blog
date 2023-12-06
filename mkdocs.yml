@@ -107,6 +107,7 @@ nav:
     - life/translate-python-doc-tw.md
     - GCSJ 2023:
       - life/gcsj2023/index.md
+      - life/gcsj2023/cloud-compute-unit-1-and-2.md
   - Tags: tags.md
   
 markdown_extensions:
