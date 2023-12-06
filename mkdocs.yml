@@ -38,6 +38,9 @@ extra:
       link: https://github.com/JustinBear99
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/hsien-feng-hsiung/
+  analytics:
+    provider: google
+    property: G-MBECH8SNT3
 nav:
   - Home: index.md
   - Career:
