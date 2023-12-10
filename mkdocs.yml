@@ -94,6 +94,7 @@ nav:
           - career/leetcode/daily/dec2023/1903-largest-odd-number-in-string.md
           - career/leetcode/daily/dec2023/606-construct-string-from-binary-tree.md
           - career/leetcode/daily/dec2023/94-binary-tree-Inorder-traversal.md
+          - career/leetcode/daily/dec2023/867-transpose-matrix.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
