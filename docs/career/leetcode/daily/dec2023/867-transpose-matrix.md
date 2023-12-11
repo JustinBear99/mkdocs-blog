@@ -4,7 +4,7 @@ date:
     updated: 2023-12-10
 
 description: >
-    Solution for Leet Code 606. Construct String from Binary Tree
+    Solution for Leet Code 867. Transpose Matrix
 
 tags:
     - LeetCode
@@ -15,7 +15,7 @@ comments: true
 
 ## Description
 
-Transpose 2d matrix. (10 *easy* problems in a streak...)
+Transpose 2d matrix. (10 *easy* problems streak... 😑)
 
 ## Code
 
