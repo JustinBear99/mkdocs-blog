@@ -96,6 +96,7 @@ nav:
           - career/leetcode/daily/dec2023/94-binary-tree-Inorder-traversal.md
           - career/leetcode/daily/dec2023/867-transpose-matrix.md
           - career/leetcode/daily/dec2023/1287-element-appearing-more-than-25-percent-In-sorted-array.md
+          - career/leetcode/daily/dec2023/1464-maximum-product-of-two-elements-in-an-array.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
