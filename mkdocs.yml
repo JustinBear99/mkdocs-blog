@@ -100,6 +100,7 @@ nav:
           - career/leetcode/daily/dec2023/1582-special-positions-in-a-binary-matrix.md
           - career/leetcode/daily/dec2023/2482-difference-between-ones-and-zeros-in-row-and-column.md
           - career/leetcode/daily/dec2023/1436-destination-city.md
+          - career/leetcode/daily/dec2023/242-valid-anagram.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
