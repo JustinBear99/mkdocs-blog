@@ -1,7 +1,7 @@
 ---
 date:
-    created: 2023-12-17
-    updated: 2023-12-17
+    created: 2023-12-18
+    updated: 2023-12-18
 
 description: >
     Solution for Leet Code 1913. Maximum Product Difference Between Two Pairs
