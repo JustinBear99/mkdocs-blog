@@ -107,6 +107,7 @@ nav:
           - career/leetcode/daily/dec2023/2706-buy-two-chocolates.md
           - career/leetcode/daily/dec2023/1637-widest-vertical-area-between-two-points-containing-no-points.md
           - career/leetcode/daily/dec2023/1422-maximum-score-after-splitting-a-string.md
+          - career/leetcode/daily/dec2023/1496-path-crossing.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 

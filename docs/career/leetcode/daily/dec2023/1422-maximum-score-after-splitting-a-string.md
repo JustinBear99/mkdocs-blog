@@ -1,7 +1,7 @@
 ---
 date:
-    created: 2023-12-21
-    updated: 2023-12-21
+    created: 2023-12-22
+    updated: 2023-12-22
 
 description: >
     Solution for Leet Code 1422. Maximum Score After Splitting a String
