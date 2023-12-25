@@ -109,6 +109,7 @@ nav:
           - career/leetcode/daily/dec2023/1422-maximum-score-after-splitting-a-string.md
           - career/leetcode/daily/dec2023/1496-path-crossing.md
           - career/leetcode/daily/dec2023/1758-minimum-changes-to-make-alternating-binary-string.md
+          - career/leetcode/daily/dec2023/91-decode-ways.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
