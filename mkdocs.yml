@@ -110,6 +110,8 @@ nav:
           - career/leetcode/daily/dec2023/1496-path-crossing.md
           - career/leetcode/daily/dec2023/1758-minimum-changes-to-make-alternating-binary-string.md
           - career/leetcode/daily/dec2023/91-decode-ways.md
+          - career/leetcode/daily/dec2023/1155-number-of-dice-rolls-with-target-sum.md
+          - career/leetcode/daily/dec2023/1578-minimum-time-to-make-rope-colorful.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
