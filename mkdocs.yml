@@ -112,6 +112,13 @@ nav:
           - career/leetcode/daily/dec2023/91-decode-ways.md
           - career/leetcode/daily/dec2023/1155-number-of-dice-rolls-with-target-sum.md
           - career/leetcode/daily/dec2023/1578-minimum-time-to-make-rope-colorful.md
+          - career/leetcode/daily/dec2023/1531-string-compression-ii.md
+          - career/leetcode/daily/dec2023/1335-minimum-difficulty-of-a-job-schedule.md
+          - career/leetcode/daily/dec2023/1897-redistribute-characters-to-make-all-strings-equal.md
+          - career/leetcode/daily/dec2023/1624-largest-substring-between-two-equal-characters.md
+        - Jan 2024:
+          - career/leetcode/daily/jan2024/455-assign-cookies.md
+          - career/leetcode/daily/jan2024/2610-convert-an-array-Into-a-2d-array-with-conditions.md
     - System Design:
       - career/system-design/index.md
       - ByteByteGo: 
